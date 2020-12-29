@@ -1,0 +1,22 @@
+# For the `icon`, see SVG.toml
+
+[[socials]]
+    id = "rss"
+    url = "/rss.xml"
+    icon = "rss"
+    title = "RSS"
+    weight = 1
+
+[[socials]]
+    id = "email"
+    url = "mailto:info@raphaelb.org"
+    icon = "envelope"
+    title = "Email"
+    weight = 2
+
+[[socials]]
+    id = "github"
+    url = "https://github.com/raphael0202"
+    icon = "github"
+    title = "GitHub"
+    weight = 3

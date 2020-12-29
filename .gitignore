@@ -1,0 +1,4 @@
+public
+resources/_gen
+deploy.sh
+*.code-workspace
