@@ -44,7 +44,7 @@ As it would have been too time-consuming to manually check and correct the ~160k
 
 The impact of these dataset corrections on metrics was impressive: F1 scores for LOC entities went from 89.03 to 93.79 (+4.7). However, the score improvements were not significant for the other entity types. The impact of fixing the dataset widely exceeded the gain we observed by tuning hyperparameters or the model architecture.
 
-As illustrated by WikiNER, it is most of the time more effective to spend time improving your dataset before trying fancier neural architecture or performing a hyperparameter search.
+As illustrated by WikiNER, it is often more effective to spend time improving your dataset before trying fancier neural architecture or performing a hyperparameter search.
 
 As a rule of thumb, you should always check the dataset you plan to use to train a machine learning model. It can be as simple as diving into the data to get a better grasp of the task and to detect potential issues. Depending on your dataset, a more advanced exploratory data analysis may be needed. Here are a few things you may want to check:
 
